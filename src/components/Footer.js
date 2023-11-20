@@ -43,17 +43,17 @@ const Footer = () => {
           {/* Right Column */}
           <div className="col text-right">
           <div className="row">
-              <button type="button" className="btn">
-                Button 1
+              <button type="button" className="btn-green">
+                Cash
               </button>
-              <button type="button" className="btn">
-                Button 2
+              <button type="button" className="btn-yellow">
+                Pay
               </button>
-              <button type="button" className="btn">
-                Button 3
+              <button type="button" className="btn-yellow">
+                Card
               </button>
-              <button type="button" className="btn">
-                Button 4
+              <button type="button" className="btn-yellow">
+                Credit
               </button>
             </div>
             {/* Second Row */}

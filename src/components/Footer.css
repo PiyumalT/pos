@@ -22,15 +22,35 @@
     height: 50px;
     border-radius: 10px;
   }
-  .text-left .btn{
+  .text-left .btn,
+  .text-right .btn{
     background: rgb(91, 91, 246);
     color: aliceblue;
   }
+
   .btn .btn-long{
     width:150px;
   }
   .btn .btn-light{
     background: white;
     color: black;
+  }
+  .btn-yellow{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: #ffc40c;
+  }
+  .btn-green{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: #7fba11;
   }
   
