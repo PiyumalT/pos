@@ -1,12 +1,8 @@
-// NavBar.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faStore } from '@fortawesome/free-solid-svg-icons';
-import { faEllipsisV } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
-import './NavBar.css'; // Import the CSS file
+import './NavBar.css'; 
 
 const NavBar = () => {
   return (
@@ -15,7 +11,6 @@ const NavBar = () => {
         <FontAwesomeIcon icon={faSun} className="icon" />
         <select className="dropdown">
           <option>Please select</option>
-          {/* Add your dropdown options here */}
         </select>
         <div className="date-info">
           <p className="dummy-date">01/01/2023 | Monday</p>

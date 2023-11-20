@@ -1,8 +1,7 @@
-// LeftSection.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faUser } from '@fortawesome/free-solid-svg-icons';
-import './LeftSection.css'; // Import the CSS file
+import './LeftSection.css';
 
 const LeftSection = () => {
   return (

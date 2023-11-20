@@ -1,6 +1,5 @@
-// RightContent.js
 import React, { useState, useEffect ,useRef } from 'react';
-import './RightContent.css'; // Import the CSS file
+import './RightContent.css'; 
 
 const RightContent = () => {
   const [items, setItems] = useState([]);
@@ -15,14 +14,10 @@ const RightContent = () => {
       .then(data => setItems(data)); 
   }, []);
 
-
-
-
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 1);
   };
 
-  
 
   const rightSectionRef = useRef(null);
   const handleScroll = (event) => {
@@ -66,23 +61,18 @@ const RightContent = () => {
         image.classList.add('fade-out');
       });
 
-
       // After the transition duration, remove the fade-out class
       setTimeout(() => {
         document.querySelectorAll('.item-image').forEach((image) => {
           image.classList.remove('fade-out');
         });
-      }, 200); // 500 milliseconds, adjust as needed
+      }, 200); 
       changeImage();
     }, 5000); // Change image every 5 seconds
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
-
-
-
-
 
   return (
     <div id="right-section" className="right-content" ref={rightSectionRef}>
