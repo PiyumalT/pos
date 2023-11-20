@@ -1,0 +1,77 @@
+/* NavBar.css */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ebeff3;
+}
+
+.nav-bar .left-section,
+.nav-bar .center-section,
+.nav-bar .right-section {
+  display: flex;
+  align-items: center;
+}
+.nav-bar .icon {
+  margin-left: 10px;
+}
+
+.nav-bar .dropdown {
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.nav-bar .date-info {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.nav-bar .dummy-date,
+.nav-bar.dummy-day {
+  margin: 0;
+}
+
+
+.nav-bar .store-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-bar .profile-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-bar .profile-icon {
+  margin: 0 5px;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid aqua;
+  background-color: darkgray;
+  text-align: center;
+}
+.nav-bar .profile-icon .fa-user{
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.nav-bar .user-info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-bar .user-name {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.nav-bar .ellipsis-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+/* Footer.css */
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .col .text-right{
+    margin-left: 20px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .text-left .btn{
+    background: rgb(91, 91, 246);
+    color: aliceblue;
+  }
+  .btn .btn-long{
+    width:150px;
+  }
+  .btn .btn-light{
+    background: white;
+    color: black;
+  }
+  

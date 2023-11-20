@@ -1,0 +1,57 @@
+/* LeftSection.css */
+  .left-section {
+    padding: 10px;
+  }
+  
+  .left-section .row {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .left-section .row2 .dropdown {
+    width: 32%;
+    padding: 4px;
+  }
+  
+  .profile-icon,
+  .arrow-circle {
+    margin-right: 10px;
+  }
+  
+  .left-section .fa-user,
+  .left-section .fa-caret-down {
+    font-size: 1rem;
+    margin:5px;
+  }
+  
+  .left-section .box .dropdown {
+    border: none;
+    width: 100%;
+  }
+
+  .box{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 48%;
+  }
+  .left-section .white-box{
+    background-color: #ffffff;
+
+  }
+
+  .left-section .row p{
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .left-section .blue-back{
+    background-color: #f1f5f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  
+  /* Add more styles as needed for your design */
+  
